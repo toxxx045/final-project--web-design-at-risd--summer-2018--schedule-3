@@ -55,7 +55,7 @@ I encourage you to consider both traditional web design elements (navigations on
 Make sure Atom continually reports `No errors were found!` in the lower left hand corner as you work on your HTML and CSS. Solve validation issues as you work — don’t let them accumulate.
 
 ## Due
-9:00 AM on Friday, 20 July 2018.
+1:00 PM on Friday, 4 August 2018.
 
 ## Submission
 You will need to issue a pull request back into the original repo, the one from which your fork was created. See the **Issuing Pull Requests** section of [this site](http://code-warrior.github.io/tutorials/git/github/index.html) for help on how to submit your assignment.
