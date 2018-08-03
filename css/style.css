@@ -65,12 +65,11 @@ body nav a {
 #page--portfolio nav a {
   color: #5C1F37;
 }
-
-.pdes {
+#page--portfolio .pdes {
   display: flex;
   margin-top: 150px;
 }
-.pdes--content {
+#page--portfolio .pdes--content {
   font-family: Syncopate, Arial, sans-serif;
   color: #5C1F37;
   margin-left: 2px;

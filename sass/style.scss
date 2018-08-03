@@ -96,19 +96,17 @@ body {
             color:#5C1F37;
          }
       }
-   }
-}
+      .pdes {
+         display: flex;
+         margin-top: 150px;
 
+         &--content {
+            font-family:$font-stack--heading;
+            color: #5C1F37;
+            margin-left: 2px;
+            font-size: 30px;
 
-.pdes {
-   display: flex;
-   margin-top: 150px;
-
-   &--content {
-      font-family:$font-stack--heading;
-      color: #5C1F37;
-      margin-left: 2px;
-      font-size: 30px;
-
+         }
+      }
    }
 }
