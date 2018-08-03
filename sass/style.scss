@@ -54,10 +54,10 @@ body {
       background: $bg-color url("../img/ship.jpg");
    }
 
-   &---about {
+   &--about {
       background: $bg-color;
 
-      > p {
+      p {
          font-family: $font-stack--content;
          margin-top:200px;
          margin-left: 50px;
@@ -65,8 +65,14 @@ body {
          line-height: 1.2;
       }
 
-      > img {
+      img {
          border-radius: 50%;
+      }
+
+      nav {
+         a {
+            color: black;
+         }
       }
    }
 
