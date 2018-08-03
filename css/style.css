@@ -1,19 +1,52 @@
-body {
-  background-image: url("../img/ship.jpg"); }
-  body header {
+#page--home {
+  background: #D1B7D4 url("../img/ship.jpg"); }
+#page---about {
+  background: #D1B7D4; }
+#page--portfolio {
+  background: #D1B7D4; }
+
+body header {
+  color: white; }
+  body header > h1 {
     font-family: Syncopate, Arial, sanserif;
-    color: white; }
-    body header > h1 {
-      font-size: 60px;
-      margin-top: 300px;
-      margin-left: 200px;
-      margin-bottom: 5px; }
-    body header > p {
-      font-size: 24px;
-      margin-left: 320px; }
-  body nav ul {
-    display: flex;
-    width: 500px;
-    margin: auto; }
+    font-size: 60px;
+    margin-top: 280px;
+    margin-left: 200px;
+    margin-bottom: 5px; }
+  body header > p {
+    font-family: Syncopate, Arial, sanserif;
+    font-size: 24px;
+    margin-left: 320px; }
+body nav ul {
+  display: flex;
+  width: 500px;
+  margin-top: 24px;
+  margin-left: 500px; }
+body nav li {
+  text-align: center;
+  width: 100px; }
+body nav a {
+  font-family: Raleway, Helvetica, sanserif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px; }
+
+#portfolio-page {
+  background-color: #D1B7D4; }
+  #portfolio-page > p {
+    font-style: Syncopate, Arial, sanserif; }
+
+#about-page {
+  background-color: #D1B7D4; }
+  #about-page .container {
+    display: flex; }
+  #about-page > p {
+    font-family: Raleway, Helvetica, sanserif;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.2; }
+  #about-page > img {
+    border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
