@@ -1,20 +1,13 @@
-#page--home {
-  background: #D1B7D4 url("../img/ship.jpg"); }
-#page---about {
-  background: #D1B7D4; }
-#page--portfolio {
-  background: #D1B7D4; }
-
 body header {
   color: white; }
   body header > h1 {
-    font-family: Syncopate, Arial, sanserif;
+    font-family: Syncopate, Arial, sans-serif;
     font-size: 60px;
     margin-top: 280px;
     margin-left: 200px;
     margin-bottom: 5px; }
   body header > p {
-    font-family: Syncopate, Arial, sanserif;
+    font-family: Syncopate, Arial, sans-serif;
     font-size: 24px;
     margin-left: 320px; }
 body nav ul {
@@ -26,27 +19,24 @@ body nav li {
   text-align: center;
   width: 100px; }
 body nav a {
-  font-family: Raleway, Helvetica, sanserif;
+  font-family: Raleway, Helvetica, sans-serif;
   text-decoration: none;
   color: white;
   font-size: 20px; }
 
-#portfolio-page {
-  background-color: #D1B7D4; }
-  #portfolio-page > p {
-    font-style: Syncopate, Arial, sanserif; }
-
-#about-page {
-  background-color: #D1B7D4; }
-  #about-page .container {
-    display: flex; }
-  #about-page > p {
-    font-family: Raleway, Helvetica, sanserif;
+#page--home {
+  background: #D1B7D4 url("../img/ship.jpg"); }
+#page---about {
+  background: #D1B7D4; }
+  #page---about > p {
+    font-family: Raleway, Helvetica, sans-serif;
     margin-top: 200px;
     margin-left: 50px;
     margin-right: 50px;
     line-height: 1.2; }
-  #about-page > img {
+  #page---about > img {
     border-radius: 50%; }
+#page--portfolio {
+  background: #D1B7D4; }
 
 /*# sourceMappingURL=style.css.map */

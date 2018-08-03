@@ -1,53 +1,46 @@
-$font-stack--heading:Syncopate, Arial, sanserif;
-$font-stack--content:Raleway, Helvetica, sanserif;
+// =============================================================================
+// Font stacks
+// =============================================================================
+$font-stack--heading: Syncopate, Arial, sans-serif;
+$font-stack--content: Raleway, Helvetica, sans-serif;
+
+// =============================================================================
+// Background colors
+// =============================================================================
 $bg-color: #D1B7D4;
 
-#page {
-   &--home {
-      background: $bg-color url("../img/ship.jpg");
-   }
-
-   &---about {
-      background: $bg-color;
-   }
-
-   &--portfolio {
-      background: $bg-color;
-   }
-}
-
-#home-page {
-
-}
-body{
-   header{
+body {
+   header {
       color: white;
-      >h1{
-      font-family: $font-stack--heading;
-      font-size: 60px;
-      margin-top:280px;
-      margin-left: 200px;
-      margin-bottom: 5px;
+      > h1 {
+         font-family: $font-stack--heading;
+         font-size: 60px;
+         margin-top:280px;
+         margin-left: 200px;
+         margin-bottom: 5px;
       }
-      >p{
+
+      > p {
          font-family: $font-stack--heading;
          font-size: 24px;
          margin-left: 320px;
       }
    }
 
-   nav{
-      ul{
+   nav {
+      ul {
          display: flex;
          width: 500px;
          margin-top:24px;
          margin-left: 500px;
       }
-      li{
+
+      li {
          text-align: center;
          width: 100px;
       }
-      a{
+
+      a {
          font-family: $font-stack--content;
          text-decoration: none;
          color: white;
@@ -56,27 +49,28 @@ body{
    }
 }
 
-#portfolio-page{
-   background-color: $bg-color;
-
-   >p{
-      font-style: $font-stack--heading;
+#page {
+   &--home {
+      background: $bg-color url("../img/ship.jpg");
    }
-}
 
-#about-page{
-   background-color: $bg-color;
-   .container{
-      display: flex;
-   }
-      >p{
+   &---about {
+      background: $bg-color;
+
+      > p {
          font-family: $font-stack--content;
          margin-top:200px;
          margin-left: 50px;
          margin-right:50px;
          line-height: 1.2;
       }
-      >img{
+
+      > img {
          border-radius: 50%;
       }
+   }
+
+   &--portfolio {
+      background: $bg-color;
+   }
 }
