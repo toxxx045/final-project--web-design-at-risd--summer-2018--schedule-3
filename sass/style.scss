@@ -63,7 +63,7 @@ body {
       }
 
       .content-container {
-         margin-top: 150px;
+         margin-top: 200px;
          // flex-basis: 50%;
       }
       p {
@@ -93,8 +93,22 @@ body {
 
       nav {
          a {
-            color:black;
+            color:#5C1F37;
          }
       }
+   }
+}
+
+
+.pdes {
+   display: flex;
+   margin-top: 150px;
+
+   &--content {
+      font-family:$font-stack--heading;
+      color: #5C1F37;
+      margin-left: 2px;
+      font-size: 30px;
+
    }
 }

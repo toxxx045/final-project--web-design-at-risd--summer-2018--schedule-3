@@ -41,7 +41,7 @@ body nav a {
   justify-content: space-between;
 }
 #page--about .content-container {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 #page--about p {
   font-family: Raleway, Helvetica, sans-serif;
@@ -63,7 +63,18 @@ body nav a {
   background: #DED7D7;
 }
 #page--portfolio nav a {
-  color: black;
+  color: #5C1F37;
+}
+
+.pdes {
+  display: flex;
+  margin-top: 150px;
+}
+.pdes--content {
+  font-family: Syncopate, Arial, sans-serif;
+  color: #5C1F37;
+  margin-left: 2px;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
