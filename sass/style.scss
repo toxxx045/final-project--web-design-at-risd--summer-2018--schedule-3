@@ -63,26 +63,27 @@ body {
       }
 
       .content-container {
-         margin-top: 100px;
+         margin-top: 150px;
          // flex-basis: 50%;
       }
       p {
          font-family: $font-stack--content;
          margin-top:100px;
-         margin-right:50px;
+         margin-right:80px;
          margin-left: 50px;
-         padding-left: 30px;
+         padding-left: 10px;
          line-height: 1.2;
+         border-left: 2px solid #5C1F37;
       }
 
       img {
          border-radius: 50%;
-         margin-left: 50px;
+         margin-left: 80px;
       }
 
       nav {
          a {
-            color: black;
+            color: #5C1F37;
          }
       }
    }
