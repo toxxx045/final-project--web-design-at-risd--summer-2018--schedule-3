@@ -25,9 +25,9 @@ body nav a {
   font-size: 20px; }
 
 #page--home {
-  background: #D1B7D4 url("../img/ship.jpg"); }
+  background: #DED7D7 url("../img/ship.jpg"); }
 #page---about {
-  background: #D1B7D4; }
+  background: #DED7D7; }
   #page---about > p {
     font-family: Raleway, Helvetica, sans-serif;
     margin-top: 200px;
@@ -37,6 +37,8 @@ body nav a {
   #page---about > img {
     border-radius: 50%; }
 #page--portfolio {
-  background: #D1B7D4; }
+  background: #DED7D7; }
+  #page--portfolio nav a {
+    color: black; }
 
 /*# sourceMappingURL=style.css.map */

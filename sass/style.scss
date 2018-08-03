@@ -7,7 +7,7 @@ $font-stack--content: Raleway, Helvetica, sans-serif;
 // =============================================================================
 // Background colors
 // =============================================================================
-$bg-color: #D1B7D4;
+$bg-color: #DED7D7;
 
 body {
    header {
@@ -72,5 +72,11 @@ body {
 
    &--portfolio {
       background: $bg-color;
+
+      nav {
+         a {
+            color:black;
+         }
+      }
    }
 }
