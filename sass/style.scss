@@ -98,15 +98,27 @@ body {
       }
       .pdes {
          display: flex;
-         margin-top: 150px;
+         margin-top: 100px;
 
          &--content {
             font-family:$font-stack--heading;
             color: #5C1F37;
-            margin-left: 2px;
+            margin-left: 10px;
             font-size: 30px;
 
          }
       }
+   .graphic{
+      display: flex;
+      margin-top: 100px;
+      margin-left: 180px;
+      &--content {
+         font-family: $font-stack--heading;
+         font-size:30px;
+         margin-left:70px;
+         color: #5C1F37;
+
+      }
+   }
    }
 }
