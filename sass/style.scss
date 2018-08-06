@@ -10,8 +10,11 @@ $font-stack--content: Raleway, Helvetica, sans-serif;
 $bg-color: #DED7D7;
 
 body {
+   width: 100%; //100vw
+   height: 100%; //100vh
    header {
       color: white;
+      // width:100%;
       > h1 {
          font-family: $font-stack--heading;
          font-size: 60px;
@@ -51,7 +54,7 @@ body {
 
 #page {
    &--home {
-      background: $bg-color url("../img/ship.jpg");
+      background: $bg-color url("../img/ship.jpg") no-repeat fixed 0 0/cover;
    }
 
    &--about {
@@ -68,11 +71,11 @@ body {
       }
       p {
          font-family: $font-stack--content;
-         margin-top:100px;
+         margin-top:60px;
          margin-right:80px;
          margin-left: 50px;
          padding-left: 10px;
-         line-height: 1.2;
+         line-height: 2;
          border-left: 2px solid #5C1F37;
       }
 
@@ -105,20 +108,19 @@ body {
             color: #5C1F37;
             margin-left: 10px;
             font-size: 30px;
-
          }
       }
    .graphic{
       display: flex;
-      margin-top: 100px;
+      margin-top: 80px;
       margin-left: 180px;
       &--content {
          font-family: $font-stack--heading;
          font-size:30px;
          margin-left:70px;
          color: #5C1F37;
-
       }
    }
+   // @media (max-width: 1440)
    }
 }
